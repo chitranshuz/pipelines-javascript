@@ -2,7 +2,7 @@
 pipeline {
   
   tools {
-    nodejs 'default-nodejs'
+    node 'default-nodejs'
   }
   
   stages {
