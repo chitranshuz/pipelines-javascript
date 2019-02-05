@@ -1,9 +1,12 @@
 #!/bin/groovy
 pipeline {
+  
   tools {
     nodejs 'default-nodejs'
   }
+  
   stages {
+    
     stage('Startup') {
       steps {
         script {
@@ -11,6 +14,7 @@ pipeline {
         }
       }
     }
+    
     stage('Test') {
       steps {
         script {
@@ -23,6 +27,7 @@ pipeline {
         }
       }
     }
+    
     stage('Build') {
       steps {
         script {
