@@ -1,6 +1,6 @@
 #!/bin/groovy
 pipeline {
-  
+  agent any  
   tools {
     node 'default-nodejs'
   }
