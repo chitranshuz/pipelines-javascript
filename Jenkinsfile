@@ -2,7 +2,7 @@
 pipeline {
   agent any  
   tools {
-    node 'default-nodejs'
+    node 'default-node'
   }
   
   stages {
